@@ -1,0 +1,23 @@
+{
+    "gitbook": ">=3.2.0",
+    "title": "FunWithMicrobit",
+    "links": {
+
+    },
+    "pdf": {
+        "fontSize": 14
+    },
+    "plugins": [
+        "ga@1.0.1",
+        "github@2.0.0"
+    ],
+    "pluginsConfig": {
+        "ga": {
+            "token": "UA-51680040-3"
+        },
+        "github": {
+            "url": "https://github.com/MicrobitPolska/FunWithMicrobit"
+        }
+
+    }
+}
