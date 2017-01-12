@@ -3,5 +3,5 @@
 ## What will you learn during this chapter ?
 
 * Using the radio module inside the BBC Micro:bit
-* Have 2 BBC Micro:bits talking togehter
+* Have 2 BBC Micro:bits talking togehterdo
 * Combine text and images
