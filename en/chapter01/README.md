@@ -3,9 +3,8 @@
 ## What will you learn during this chapter ?
 
 * What it means 'programming'
-* What BBC Micro:bit is
-* In which language we can talk with BBC Micro:bit
-* How to talk with your Micro:Bit (MuEditor)
+* What can you do today programming
+* What is Python
 
 ## The art of programming
 Probably you have already heard the word 'programming'.
@@ -16,28 +15,25 @@ Well, to simplify programming is the art to talk with an electronic device (a co
 to tell it do to something.
 See the Micro:bit as a best friend and programming like the way to ask him for a favour.
 
+## What can I today if I know how to program ?
 
-## BBC Micro:bit
-What is a BBC Micro:bit ?
+Well that's really a good question!
+If programming is like an art....the only limit is your __imagination__.
+If we think about programming like the art of talk to the machines (computers) and let them doing what you want
+well you can really create a lot of useful stuff.
 
-It should be in your hands already.....is a very tiny device, a small computer.
+Where is the art of programming used ?
 
-It has 2 main buttons (A and B), a display formed by 5x5 red leds, and some sensors, an accelorometer and a compass.
+* You can play with the Micro:bit
+* You can discover the [Gravitational Waves](https://www.reddit.com/r/IAmA/comments/45g8qu/we_are_the_ligo_scientific_collaboration_and_we/ "Gravitational Waves")
+* You can send things to the space
 
-![BBC Micro:bit](images/microbit-front.png)
-
-We can use the buttons and the sensors as inputs (input means we give some information to the microbit) and the display to show something like images and text (output).
-
-You can program your Micro:bit connecting it to your computer, it has a micro-usb port, if you plug it you will see leds blinking.
-It also has a small connector where you can plug a battery-box, in this way you can give energy to your Micro:bit without a computer.
-
-## Python
+## Programming language
 Computer can understand only 0 and 1 but we do not.
 How can we talk with a computer in a language what we understand ?
-That's where Python comes in.
+That's where programming languages come in.
 
-Python is a programming language easy to read for us but can be easlily translated in 0 and 1 (we don't have to worry about this,
-Python is going to do this itself).
+Programming languages are, generally, easy to read for us and the same time they can be easily translated in 0 and 1.
 
 An example ?
 
@@ -47,13 +43,19 @@ print("Hello ! I am Python")
 This line would print 'Hello !, I am Python' in your computer.
 Nothing complicated !
 
-## Talking with your BBC Micro:bit
-So to talk with your BBC Micro:bit you need to talk a language that it can understand: Python.
+## What is Python ?
+Python is a programming language.
+Actually it's pretty old, the first version was released in 1991 and created by [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum "Guido Van Rossum"). 
+Python is free, you don't have to pay for it and is open.
+What does it mean ?
+Basically it means you can read the code behind "Python"....but well forget about this for now.
 
-But where can we write our code ? We can use a text editor for this, **Mu**.
-Mu is an editor specifically made to program the BBC Micro:bit.
+But why Python is so special and why are we going to learn it ?
 
-Let's start Mu
+Python is easy to read, use and at the same time really powerful.
+
+You can use Python to create website like [Django](https://www.djangoproject.com/ "Django Web Framework"), create self-driving cares or helping researchers in doing _better_ research.
+
 
 ## multiple choice questions here (MCQs) ?
 

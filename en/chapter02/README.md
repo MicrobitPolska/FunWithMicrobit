@@ -1,4 +1,4 @@
-# Micro:bit & MuEditor
+# Micro:bit & Mu Editor
 
 ## What will you learn during this chapter ?
 
