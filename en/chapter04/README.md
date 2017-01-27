@@ -80,3 +80,37 @@ display.show(Image.HOUSE)
 ```
 
 Flash this code and tell us about the result!
+
+# Build your image!
+
+Micro:bit knows already a lot of images but we can build also new images.
+
+This is how it works
+
+
+```python
+new_image = Image(
+             "11111:"
+             "19991:"
+             "19991:"
+             "19991:"
+             "11111")
+display.show(new_image)
+```
+We have just create a new image!
+
+But what are those numbers ?
+
+We have five lines and five numbers in each line....
+
+They are our leds! 
+
+Each number represent a led on our Micro:bit from, from the left top.
+
+But we have 0, 1 and 9.
+
+Can you say what does it change between putting 0, 1 or 9 ?
+
+hint: you can use numbers between 0 and 9.
+
+Experiment!
