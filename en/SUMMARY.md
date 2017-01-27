@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Programming & Python](chapter01/README.md)
-* [Micro:bit & MuEditor](chapter02/README.md)
+* [Micro:bit & Mu editor](chapter02/README.md)
 * [Hello Micro:bit](chapter03/README.md)
 * [Animations](chapter04/README.md)
 * [Sensors and Buttons](chapter05/README.md)

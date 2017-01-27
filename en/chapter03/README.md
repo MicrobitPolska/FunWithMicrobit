@@ -3,8 +3,7 @@
 ## What will you learn during this chapter ?
 
 * Show a text on your BBC Micro:bit
-* Show an image on your BBC Micro:bit
-* Combine text and images
+* Loops
 
 ## How to ask your Micro:bit to say hello
 
@@ -96,9 +95,10 @@ while 1<0:
   display.show("Hello Poland!")
 ```
 
-We just changed the condition with something that is always _False_
+## ADD SOMETHING ABOUT FOR LOOP
+
+We just changed the condition with something that is always _False_.
 
 ## What is the difference between these codes ?
-
 
 ## Why display is not exactly under while ?

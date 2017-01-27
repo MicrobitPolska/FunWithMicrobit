@@ -15,7 +15,16 @@ Well, to simplify programming is the art to talk with an electronic device (a co
 to tell it do to something.
 See the Micro:bit as a best friend and programming like the way to ask him for a favour.
 
-## What can I today if I know how to program ?
+But why we can consider programming like an __art__ ?
+
+* Because it's not just about pressing buttons
+* You need to use your brain
+* Often you will create something form scratch
+* There is not just one way to resolve a problem
+* You need to creative and inspired
+
+
+## What can I do today if I know how to program ?
 
 Well that's really a good question!
 If programming is like an art....the only limit is your __imagination__.
@@ -57,12 +66,18 @@ Python is easy to read, use and at the same time really powerful.
 You can use Python to create website like [Django](https://www.djangoproject.com/ "Django Web Framework"), create self-driving cares or helping researchers in doing _better_ research.
 
 
-## multiple choice questions here (MCQs) ?
+# Question time!
 
-* What it means 'programming'
-* What BBC Micro:bit is
-* In which language we can talk with BBC Micro:bit
-* How to talk with your Micro:Bit (MuEditor)
+## Why do you think programming is useful ?
+
+* That's an open question :)
+
+## What is Python ?
+
+1. A form of art
+2. A programming language
+3. A website
+4. A book from Guido Van Rossum
 
 ## That's all
 

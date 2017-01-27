@@ -6,99 +6,77 @@
 * Show an image on your BBC Micro:bit
 * Combine text and images
 
-## How to ask your Micro:bit to say hello
+## Showing images
 
-Your Micro:bit can do a lot of things but you need to explain it how to do this.
-It's like when you are stading and you are "importing" what you read inside your mind.
+Showing text is ok....but what about images ?!?!
 
-So it's time to open **MuEditor** and type these first lines:
-
-```python
-# This is a COMMENT
-from microbit import display
-```
-
-STOP !
-
-Let's think about this first 2 lines.
-The first one starts with # and it means is a comment.
-A comment is a part of code in Python used...just to comment and it starts with #.
-
-The second line is much more important. We are asking Python to import the _display_ module from microbit.
-
-But what is a module ?
-Think about a _module_ as a collection of Python code that will help us using the _display__.
-
-
-now we can ask Micro:bit to display our text
+Let's start with something...happy :)
 
 ```python
-# This is a AGAIN a COMMENT
-from microbit import display
+from microbit import *
 
-display.show("Hello PutYourNameHere, I am your Micro:bit")
+display.show(Image.HAPPY)
 ```
 
-What we have here now ?
+Did you flash the code inside your Micro:bit ?
 
-First and second line are nothing new.
+Show us the happy faces!
 
-But what about the third line ?
-
-Well we are using a part of the code, described inside _display_, called _show_.
-
-And we are jut putting text after it.
-
-Let's try with a different text:
+This is a list of images that you can use:
 
 ```python
-# This is a AGAIN a COMMENT
-from microbit import display
-
-display.show("Helloo Poland!)
+Image.HEART
+Image.HEART_SMALL
+Image.HAPPY
+Image.SMILE
+Image.SAD
+Image.CONFUSED
+Image.ANGRY
+Image.ASLEEP
+Image.SURPRISED
+Image.ROLLERSKATE
+Image.DUCK
+Image.HOUSE
+Image.TORTOISE
+Image.BUTTERFLY
+Image.STICKFIGURE
+Image.GHOST
+Image.SWORD
+Image.GIRAFFE
+Image.SKULL
+Image.UMBRELLA
+Image.SNAKE
 ```
 
-copy this text in your Mu editor and flash it !
+__Take 5 minutes and play with these images.__
 
-Mmmm.... why are we receiving an error ?
-
-* The exclamation mark at the end of the text is causing a problem
-* The text is too short
-* We need a __"__ at the end of the text
-* Helloo (should be Hello) is not grammatically correct
-
-## But why only one time ?
-
-We put __showed__ our text inside the Micro:bit...but it shows our text only for one timeself.
-What if we want to keep our Micro:bit showing the text ?
-
-We need to introduce the concept of __loop__
-
-With a __loop_ we are saying to the Micro:bit to _do something until some condition is respected_
-
-In Python we have different __loops__, we can start using __while__.
-
-While literally means _do something until the condition is true_
+Try also to put more then one image together!
 
 ```python
-from microbit import display
+from microbit import *
 
-while 1>0:
-  display.show("Hello Poland!")
+display.show(Image.HAPPY)
+display.show(Image.HOUSE)
 ```
 
-Let's try again with this code:
+Let's discuss about the result together :)
+
+# Showing 2 images
+
+We don't see the first image because....Micro:bit execute the second display so fast that we cannot see the first.
+
+Let's ask the Micro:bit to...sleep.
+
+There is special command called sleep(seconds*1000) that literally put your Micro:bit under a special kind of sleep.
+
+Let's try this command, inside (seconds*1000) you should substitute _seconds_ with the number of seconds you want your Micro:bit to sleep 
 
 ```python
-from microbit import display
+from microbit import *
 
-while 1<0:
-  display.show("Hello Poland!")
+display.show(Image.HAPPY)
+sleep(10*1000)
+display.show(Image.HOUSE)
 ```
 
-We just changed the condition with something that is always _False_
-
-## What is the difference between these codes ?
-
-
-## Why display is not exactly under while ?
+Flash this code and tell us about the result!

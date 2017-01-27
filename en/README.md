@@ -44,3 +44,7 @@ The first 4 hours will be dedicated to present and teach Python and Micro:bit, i
 
 The last 2 hours will be instead dedicated to an Open Lab! with the knowledge that you achieved you can now play with Micro:bit and create things on your own and with the companion of this workshop.
 But before the end you are going to present your project in front of all of the group!
+
+# Scenario
+
+Put the scenario for the teaching experience
