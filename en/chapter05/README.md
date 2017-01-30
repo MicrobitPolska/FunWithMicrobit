@@ -1,104 +1,177 @@
-# Sensors and Buttons
+# Buttons & Sensors
 
 ## What will you learn during this chapter ?
 
-* Show a text on your BBC Micro:bit
+* Use the buttons to control your Micro:bit
 * Show an image on your BBC Micro:bit
 * Combine text and images
 
-## How to ask your Micro:bit to say hello
+## So we do have buttons....
 
-Your Micro:bit can do a lot of things but you need to explain it how to do this.
-It's like when you are stading and you are "importing" what you read inside your mind.
+As you probably saw your Micro:bit has 2 big buttons `A` and `B`.
+And you can do a lot of things with me, let's start with something easy.
 
-So it's time to open **MuEditor** and type these first lines:
 
 ```python
-# This is a COMMENT
-from microbit import display
+from microbit import *
+
+sleep(10 * 1000)
+display.scroll(str(button_a.get_presses()))
 ```
 
-STOP !
+wait before flashing!
 
-Let's think about this first 2 lines.
-The first one starts with # and it means is a comment.
-A comment is a part of code in Python used...just to comment and it starts with #.
+We know what `from microbit import *` does and the same goes for `sleep(10 * 1000)`.
 
-The second line is much more important. We are asking Python to import the _display_ module from microbit.
+But what about `display.scroll(str(button_a.get_presses()))` ?
 
-But what is a module ?
-Think about a _module_ as a collection of Python code that will help us using the _display__.
+We see that this line is formed by many instructions.
+
+From the inside we have:
+
+1. `button_a.get_presses()`
+
+This code returns the number of times you pressed the `A` button.
+
+2. `str()`
+
+This line just conver a `str(value)` to a string.
+"1" and 1 are different values in Python, "1" is a string (like a word) weather 1 is a number, an integer in this case. 
+We need to convert an integer to a string because `display.scroll()` accept strings.
+
+3. `display.scroll()`
+
+We have already used this command, it displays text using the leds.
+
+So putting everything together we:
+
+1. Collect the number of times we pressed the button `A`
+2. Convert that number into a str
+3. Display the value on the Micro:bit
+
+Ok, now you can press flash an try this code!
+
+### How is the code working?
+### How do you think we can improve this code?
+
+### Quest of the day
+
+Can you write a program to count the total number of times you pressed the button `B` during 5 seconds ?
+
+You have 10 minutes for this quest!
+
+## Time to improve our code: part 1#
 
 
-now we can ask Micro:bit to display our text
+The code is working but we would like add some new features:
+
+We want to show a countdown before start _counting_, something like 3, 2, 1, go!
+
+* show a countdown (like 3, 2, 1, 0)
+* display the number of time you pressed the button `B`
+ 
+```python
+from microbit import *
+
+countdown = ['3','2','1','0']
+display.show(countdown, 1*1000)
+display.clear() # With this we just clear the display :)
+
+sleep(10 * 1000)
+display.scroll(str(button_b.get_presses()))
+```
+
+## Time to improve our code: part 2#
+
+Now we want to have something like `Press button A to start`.
+
+In other words we want to display `Press button A to start` _until_ we pressed the button `A`.
+
+how can we code this ?
+
+__hint: `button_a.was_pressed()` returns True is `A` was pressed or False__
 
 ```python
-# This is a AGAIN a COMMENT
-from microbit import display
+from microbit import *
 
-display.show("Hello PutYourNameHere, I am your Micro:bit")
+while button_a.was_pressed() is False:
+    display.scroll("Press button A to start")
+
+countdown = ['3','2','1','0']
+display.show(countdown, 1*1000)
+display.clear()
+
+sleep(10 * 1000)
+display.scroll(str(button_b.get_presses()))
 ```
 
-What we have here now ?
 
-First and second line are nothing new.
+## Last step!
 
-But what about the third line ?
+The last step is to add the possibility to repeat the game.
 
-Well we are using a part of the code, described inside _display_, called _show_.
+This means repeat infinitely all this code we had before.
 
-And we are jut putting text after it.
+__hint: to repeat code infinitely you have to use while True__
 
-Let's try with a different text:
 
 ```python
-# This is a AGAIN a COMMENT
-from microbit import display
+from microbit import *
 
-display.show("Helloo Poland!)
+while True:
+    while button_a.was_pressed() is False:
+        display.scroll("Press button A to start")
+        
+    countdown = ['3','2','1','0']
+    display.show(countdown, 1*1000)
+    display.clear()
+    sleep(10 * 1000)
+    display.scroll(str(button_b.get_presses()))
 ```
 
-copy this text in your Mu editor and flash it !
+## Feel the sensors
 
-Mmmm.... why are we receiving an error ?
-
-* The exclamation mark at the end of the text is causing a problem
-* The text is too short
-* We need a __"__ at the end of the text
-* Helloo (should be Hello) is not grammatically correct
-
-## But why only one time ?
-
-We put __showed__ our text inside the Micro:bit...but it shows our text only for one timeself.
-What if we want to keep our Micro:bit showing the text ?
-
-We need to introduce the concept of __loop__
-
-With a __loop_ we are saying to the Micro:bit to _do something until some condition is respected_
-
-In Python we have different __loops__, we can start using __while__.
-
-While literally means _do something until the condition is true_
+Micro:bit has different sensors, one of them is an _accelerometer_ and we can use it to recognize some gestures.
 
 ```python
-from microbit import display
-
-while 1>0:
-  display.show("Hello Poland!")
+up
+down
+left
+right
+face up
+face down
+freefall
+3g
+6g
+8g
 ```
 
-Let's try again with this code:
+You can get the current gesture using `accelerometer.current_gesture()`, this command returns a string.
+
+Let's try a simple example:
 
 ```python
-from microbit import display
+from microbit import *
 
-while 1<0:
-  display.show("Hello Poland!")
+
+x = Image("90009:"
+          "09090:"
+          "00900:"
+          "09090:"
+          "90009")
+
+square = Image("99999:"
+               "99999:"
+               "99999:"
+               "99999:"
+               "99999")
+
+while True: 
+    gesture = accelerometer.current_gesture()
+    if gesture == "face up":
+        display.show(square)
+    else:
+        display.show(x)
 ```
 
-We just changed the condition with something that is always _False_
-
-## What is the difference between these codes ?
-
-
-## Why display is not exactly under while ?
+Flash it!
