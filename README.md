@@ -6,7 +6,7 @@
 FunWithMicrobit is a 6 hours workshop made by kids for the kids :-)
 
 ## About and contributing
-This tutorial is maintained by [MicrobitPolska](https://www.microbitpolska.org/). 
+This tutorial is maintained by [Microbit:Polska](https://www.microbitpolska.org/). 
 If you find any mistakes or want to update the tutorial please [follow the contributing guidelines](https://github.com/MicrobitPolska/FunWithMicrobit/blob/master/README.md).
 
 ## Contributing
@@ -20,4 +20,6 @@ It's that easy :)
 
 ## Credits
 
-Thanks to the DjangoGirls, we got a lot of inspiration from their repository.
+Thanks to the [DjangoGirls](https://djangogirls.org/), we got a lot of inspiration from their repository.
+
+A lot of this material is taken from [microbit-micropython.readthedocs.io](https://microbit-micropython.readthedocs.io)
