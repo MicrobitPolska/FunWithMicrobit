@@ -24,17 +24,19 @@ Use the radio module is very easy:
 4. Send or receive messages
 
 ```python
-from microbit import *
+import radio
+import random
+from microbit import display, Image, button_a, sleep
 
-# we need to import 
-import radio 
+# Create the "flash" animation frames. Can you work out how it's done?
+flash = [Image().invert()*(i/9) for i in range(9, -1, -1)]
 
 # The radio won't work unless it's switched on.
 radio.on()
 
 # The radio won't work unless it's switched on.
 radio.config(group=NumberThatYouChose)
-
+# A micro:bit Firefly.
 
 # Event loop.
 while True:
