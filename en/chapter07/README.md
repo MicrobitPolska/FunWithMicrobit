@@ -25,16 +25,7 @@ Hints:
 * try to use `if`
 * use `is_pressed()`
 
-## Challenge n.3 - 
-Probably you have already heard the word 'programming'.
-
-But what does it mean ?
-
-Well, to simplify programming is the art to talk with an electronic device (a computer or a BBC Micro:bit for example)
-to tell it do to something.
-See the Micro:bit as a best friend and programming like the way to ask him for a favour.
-
-## Quest n.4 - Shack and display messages!
+## Quest n.3 - Shack and display messages!
 The goal of this quest is to write a program that display different messages everytime you shack you Micro:bit.
 
 Some hints:
@@ -44,11 +35,21 @@ Some hints:
 
 But what does it mean ?
 
-## Challenge n.5 - Use the radio
-Probably you have already heard the word 'programming'.
+## Quest n.4 - Show the direction of you Micro:bit
+Micro:bit comes with an _accelorometer_, a sensor that gives you the direction of the Micro:bit.
+Build a program that shows the direction of the Micro:bit with an arrow.
 
-But what does it mean ?
+Hints:
+* Consider only `up`, `down`, `left` and `right`
+* Build the arrows using Image()
+* Use `accelerometer.current_gesture()` to get the current direction
+* Don't forget about `while True:`
 
-Well, to simplify programming is the art to talk with an electronic device (a computer or a BBC Micro:bit for example)
-to tell it do to something.
-See the Micro:bit as a best friend and programming like the way to ask him for a favour.
+## Quest n.5 - Use the radio
+Try to build a simple text-walkie-talkie with your friends.
+Choose a message and send the message to your friend every time you push a button (A or B).
+
+Hints:
+* Remember to call `radio.on()`
+* When you receive a radio-message scroll the message
+* To simplify the program consider that only one Micro:bit at time will send a message

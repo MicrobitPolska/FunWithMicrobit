@@ -2,11 +2,22 @@
 
 ## What will you learn during this chapter ?
 
-* You will apply what you have learned before
-* You will work with your team to prepare a project
-* Combine text and images
+* Create a team!
+* Prepare a special project
+* Have fun!
 
-## Let works together
+Students, Teachers and Programmers please form some groups!
 
-It's time to form some group, you will have around 30 minutes to prepare a project using Python and BBC Micro:bit.
-After you prepared your project you will present your project.
+You will have around 30 minutes to think and code a SuperCool project and then present it in front of the other groups.
+
+Remember:
+
+* You can use all the Micro:bits of your groups
+* No limit to your imagination (feel free to use everything you know)
+* Work together
+* Is not a race
+* Is not a race between Programmers :)
+* Enjoy this as much as possible!
+
+
+# Let's start!
