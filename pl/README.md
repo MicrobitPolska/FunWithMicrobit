@@ -1,53 +1,53 @@
 # Fun With Microbit
 
-> Materia³ oparty jest na licencji Creative Commons Attribution-ShareAlike 4.0 International License.
-> By zobaczyæ kopiê licencji, odwiedŸ https://creativecommons.org/licenses/by-sa/4.0/
+> MateriaÅ‚ oparty jest na licencji Creative Commons Attribution-ShareAlike 4.0 International License.
+> By zobaczyÄ‡ kopiÄ™ licencji, odwiedÅº https://creativecommons.org/licenses/by-sa/4.0/
 
 ## Wprowadzenie
 
-Witaj w __FunWithMicrobit__, ten warsztat  Ciê zapozna z Pythonem i œwiatem BBC Micro:bit
+Witaj w __FunWithMicrobit__, ten warsztat zapozna CiÄ™ z Pythonem i Å›wiatem BBC Micro:bit
 
 
-## Przed rozpoczêciem
+## Przed rozpoczÄ™ciem
 
 ### Czy masz swojego BBC Micro:bita ?
 
-Jeœli ten warsztat jest zorganizowany przez Microbit:Polska to powinieneœ otrzymaæ:
+JeÅ›li ten warsztat jest zorganizowany przez Microbit:Polska to powinieneÅ› otrzymaÄ‡:
 
 - 1 x BBC Micro:bit
 - 1 x kabel USB
-- 1 x battery pack with 2 batteries
+- 1 x paczka z 2 bateriami
 
 ### Zainstaluj edytor Mu
 
-Do tego kursu potrzebujesz mieæ [MuEditor](https://codewith.mu/ "Mu editor") zainstalowany na swoim komputerze.
+Do tego kursu potrzebujesz mieÄ‡ [MuEditor](https://codewith.mu/ "Mu editor") zainstalowany na swoim komputerze.
 
-__Mu Editor__ dostêpny jest na 3 platformy: Windows, Linux and OS X.
-WejdŸ w link podany na górze i zainstaluj wersjê pasuj¹c¹ do Twojego systemu.
-Jeœli masz problem z instalacj¹, poproœ o pomoc któregoœ z mentorów.
+__Mu Editor__ dostÄ™pny jest na 3 platformy: Windows, Linux and OS X.
+WejdÅº w link podany na gÃ³rze i zainstaluj wersjÄ™ pasujÄ…cÄ… do Twojego systemu.
+JeÅ›li masz problem z instalacjÅ›, poproÅ› o pomoc ktÃ³regoÅ› z mentorÃ³w.
 
-## Czego siê dowiesz w tym tutorialu?
+## Czego siÄ™ dowiesz w tym tutorialu?
 
-Zamierzamy zapoznaæ Ciê z tymi oto tematami:
+Zamierzamy zapoznaÄ‡ CiÄ™ z tymi oto tematami:
 
-* Co oznacza s³owo ,,programowanie"
+* Co oznacza sÅ‚owo ,,programowanie"
 * Czym jest Python
-* Jak programowaæ w Pythonie
+* Jak programowaÄ‡ w Pythonie
 * Czym jest BBC Micro:bit
-* Jak programowaæ BBC Micro:bita w Pythonie
+* Jak programowaÄ‡ BBC Micro:bita w Pythonie
 
 ## Jak zorganizowany jest ten warsztat?
 
-Warsztaty trwaj¹ ok. 6 godzin.
+Warsztat trwa ok. 6 godzin.
 
-Pierwsze 4 godziny poœwiêcone s¹ nauce obs³ugi Micro:bita i zapoznaniu siê z jêzykiem Python. SuperInteresuj¹ca sprawa!
+Pierwsze 4 godziny poÅ›wiÄ™cone sÄ… nauce obsÅ‚ugi Micro:bita i zapoznaniu siÄ™ z jÄ™zykiem Python. SuperInteresujÄ…ca sprawa!
 
-Ostatnie 2 godziny przeznaczone s¹ na kreatywn¹ pracê w³asn¹. W tym czasie mo¿esz bawiæ siê swoim Micro:bitem, wykorzystuj¹c zdobyt¹ wczeœniej wiedzê.
-Na koniec zaprezentuj grupie to, co w tym czasie stworzy³eœ!
+Ostatnie 2 godziny przeznaczone sÄ… na kreatywnÄ… pracÄ™ wÅ‚asnÄ…. W tym czasie moÅ¼esz bawiÄ‡ siÄ™ swoim Micro:bitem, wykorzystujÄ…c zdobytÄ… wczeÅ“niej wiedzÄ™.
+Na koniec zaprezentuj grupie to, co w tym czasie stworzyÅ‚eÅ›!
 
-# Scenariusz zajêæ
+# Scenariusz zajÄ™Ä‡
 
-Stwórzcie swój indywidualny scenariusz zajêæ, dostosowany do waszej grupy uczniów. 
+StwÃ³rzcie swÃ³j indywidualny scenariusz zajÄ™Ä‡, dostosowany do waszej grupy uczniÃ³w. 
 
 
 
