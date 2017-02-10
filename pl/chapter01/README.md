@@ -1,81 +1,76 @@
 # Programowanie i Python
 
-## Czego nauczysz siê w tym rozdziale?
+## Czego nauczysz siÄ™ w tym rozdziale?
 
 * Co to znaczy ,,programowanie"
-* Co mo¿na robiæ za pomoc¹ programowania
+* Co moÅ¼na robiÄ‡ za pomocÄ… programowania
 * Co to jest Python
 
 ## Sztuka programowania
-Prawdopodobnie s³ysza³eœ ju¿ wczeœniej s³owo ,,programowanie".
+Prawdopodobnie sÅ‚yszaÅ‚eÅ› juÅ¼ wczeÅ›niej sÅ‚owo ,,programowanie".
 
 Ale co ono oznacza?
 
-Nieco upraszaczaj¹c, programowanie to sztuka rozmawiania z urz¹dzeniami elektronicznymi (np. z komputerem, albo Micro:bitem) w taki sposób, ¿eby robi³y to, co my chcemy.
-Tak wiêc traktuj Micro:bita jako swojego przyjaciela i programuj go tak, jakbyœ prosi³ go o przys³ugê.
+Nieco upraszaczajÄ…c, programowanie to sztuka rozmawiania z urzÄ…dzeniami elektronicznymi (np. z komputerem, albo Micro:bitem) w taki sposÃ³b, Å¼eby robiÅ‚y to, co my chcemy.
+Tak wiÄ™c traktuj Micro:bita jako swojego przyjaciela i programuj go tak, jakbyÅ› prosiÅ‚ go o przysÅ‚ugÄ™.
 
-Ale czemu uwa¿amy, ¿e programowanie to pewien rodzaj sztuki?
+Ale czemu uwaÅ¼amy, Å¼e programowanie to pewien rodzaj sztuki?
 
-* Poniewa¿ nie chodzi w nim tylko o wiskanie klawiszy
-* Trzeba u¿ywaæ do tego mózgu
-* Czêsto tworzy siê coœ zupe³nie od zera
-* Nie istnieje tylko jeden sposób rozwi¹zywania problemów
-* Trzeba byæ kreatywnym
+* PoniewaÅ¼ nie chodzi w nim tylko o wiskanie klawiszy
+* Trzeba uÅ¼ywaÄ‡ do tego mÃ³zgu
+* CzÄ™sto tworzy siÄ™ coÅ› zupeÅ‚nie od zera
+* Nie istnieje tylko jeden sposÃ³b rozwiÄ…zywania problemÃ³w
+* Trzeba byÄ‡ kreatywnym
 
-## Co mo¿na robiæ, gdy siê umie programowaæ?
+## Co moÅ¼na robiÄ‡, gdy siÄ™ umie programowaÄ‡?
 
 To jest bardzo dobre pytanie!
-Jeœli programowanie jest jak sztuka, to jedyn¹ granic¹ jest Twoja wyobraŸnia.
-Jeœli myœlimy o programowaniu jak o sztuce rozmawiania z maszynami (komputerami), to wydaj¹c im polecenia
-mo¿emy stworzyæ wiele ciekawych i u¿ytecznych rzeczy.
+JeÅ›li programowanie jest jak sztuka, to jedynÄ… granicÄ… jest Twoja wyobraÅºnia.
+JeÅ›li myÅ›limy o programowaniu jak o sztuce rozmawiania z maszynami (komputerami), to wydajÄ…c im polecenia moÅ¼emy stworzyÄ‡ wiele ciekawych i uÅ¼ytecznych rzeczy.
 
-Gdzie u¿ywa siê sztuki programowania?
+Gdzie uÅ¼ywa siÄ™ sztuki programowania?
 
-* Mo¿na bawiæ siê Micro:bitem
-* Mo¿na odkryæ [Fale grawitacyjne](https://www.reddit.com/r/IAmA/comments/45g8qu/we_are_the_ligo_scientific_collaboration_and_we/ "Gravitational Waves")
-* Mo¿na wysy³aæ coœ w kosmos
+* MoÅ¼na bawiÄ‡ siÄ™ Micro:bitem
+* MoÅ¼na odkryÄ‡ [Fale grawitacyjne](https://www.reddit.com/r/IAmA/comments/45g8qu/we_are_the_ligo_scientific_collaboration_and_we/ "Gravitational Waves")
+* MoÅ¼na wysyÅ‚aÄ‡ coÅ› w kosmos
 
-## Jêzyk programowania
+## JÄ™zyk programowania
+Komputery rozumiejÄ… tylko 0 i 1, ale my ludzie - nie.
+Jak moÅ¼emy rozmawiaÄ‡ z komputerami w jÄ™zyku, ktÃ³ry my teÅ¼ rozumiemy? Na pomoc przychodzÄ… nam tutaj jÄ™zyki programowania.
 
-Komputery rozumiej¹ tylko 0 i 1, ale my ludzie - nie.
-Jak mo¿emy rozmawiaæ z komputerami w jêzyku, który my te¿ rozumiemy?
-Na pomoc przychodz¹ nam tutaj jêzyki programowania.
+JÄ™zyki prgramowania sÄ… stosunkowo Å‚atwe do czytania dla nas, i jednoczeÅ›nie mogÄ… byÄ‡ Å‚atwo przetÅ‚umaczone na 0 i 1.
 
-Jêzyki prgramowania s¹ stosunkowo ³atwe do czytania dla nas, i jednoczeœnie mog¹ byæ ³atwo przet³umaczone na 0 i 1.
-
-Przyk³ad?
+PrzykÅ‚ad?
 
 ```python
 print("Hello ! I am Python")
 ```
-Ta linijka kodu wyœwietli nam na ekranie: Hello !, I am Python
+Ta linijka kodu wyï¿½wietli nam na ekranie: Hello !, I am Python
 Nic skomplikowanego.
 
 ## Co to jest Python?
-Python to jêzyk programowania.
-Jest doœæ stary, jego pierwsza wersja wysz³a w 1991 roku. Zosta³ stworzony przez [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum "Guido Van Rossum").
+Python to jÄ™zyk programowania. Jest doÅ›Ä‡ stary, jego pierwsza wersja wyszÅ‚a w 1991 roku. ZostaÅ‚ stworzony przez [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum "Guido Van Rossum").
 Python jest darmowy.
 
-Czemu Python jest taki specjalny i czemu bêdziemy siê go uczyæ?
+Czemu Python jest taki specjalny i czemu bÄ™dziemy siÄ™ go uczyÄ‡?
 
-Python jest ³atwy w u¿yciu, ³atwy w czytaniu i jednoczeœnie bardzo przydatny.
+Python jest Å‚atwy w uÅ¼yciu, Å‚atwy w czytaniu i jednoczeÅ›nie bardzo przydatny.
 
-Mo¿na u¿yæ Pythona do stworzenia strony, takiej jak [Django](https://www.djangoproject.com/ "Django Web Framework"), do stworzenia samoprowadz¹cego siê samochodu albo prowadzeniu badañ.
+MoÅ¼na uÅ¼yÄ‡ Pythona do stworzenia strony, takiej jak [Django](https://www.djangoproject.com/ "Django Web Framework"), do stworzenia samoprowadzÄ…cego siÄ™ samochodu albo prowadzeniu badaÅ„.
 
 
 # Czas na pytania!
 
-## Jak myœlisz, czemu programowanie jest przydatne?
+## Jak myÅ›lisz, czemu programowanie jest przydatne?
 
 * To jest pytanie otwarte :)
 
 ## Czym jest Python ?
 
-1. Form¹ sztuki
-2. Jêzykiem programowania
-3. Stron¹ internetow¹
-4. Ksi¹¿k¹ Guido Van Rossum
+1. FormÄ… sztuki
+2. JÄ™zykiem programowania
+3. StronÄ… internetowÄ…
+4. KsiÄ…Å¼kÄ… Guido Van Rossum
 
 ## To wszystko
-
-Gotowy na nastêpny rozdzia³?
+Gotowy na nastÄ™pny rozdziaÅ‚?

@@ -89,7 +89,7 @@ In other words we want to display `Press button A to start` _until_ we pressed t
 
 how can we code this ?
 
-__hint: `button_a.was_pressed()` returns True is `A` was pressed or False__
+__hint: `button_a.was_pressed()` returns True if `A` was pressed or False__
 
 ```python
 from microbit import *

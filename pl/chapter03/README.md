@@ -1,16 +1,15 @@
 # Hello Micro:bit
 
-## Czeg nauczysz siê w tym rozdziale?
+## Czeg nauczysz siÄ™ w tym rozdziale?
 
-* Pokazywaæ tekst na swoim Micro:bicie
-* Pêtli
+* PokazywaÄ‡ tekst na swoim Micro:bicie
+* PÄ™tli
 
-## Jak poprosiæ swojego Micro:bita, ¿eby powiedzia³ ,,Hello!"
+## Jak poprosiÄ‡ swojego Micro:bita, Å¼eby powiedziaÅ‚ ,,Hello!"
 
-Twój Micro:bit mo¿e robiæ wiele róznych rzeczy, ale musisz mu wytlumaczyæ, jak ma je robiæ.
-To tak jakbyœ coœ czyta³, uczy³ siê, i musia³ ,,zaimportowaæ" to, co przeczyta³eœ do mózgu.
+TwÃ³j Micro:bit moÅ¼e robiÄ‡ wiele rÃ³znych rzeczy, ale musisz mu wytlumaczyÄ‡, jak ma je robiÄ‡. To tak jakbyÅ› coÅ› czytaÅ‚, uczyÅ‚ siÄ™, i musiaÅ‚ ,,zaimportowaÄ‡" to, co przeczytaÅ‚eÅ› do mÃ³zgu.
 
-A teraz czas, by otworzyæ **MuEditor** i wpisaæ kilka pierwszych linijek kodu:
+A teraz czas, by otworzyÄ‡ **Mu Editor** i wpisaÄ‡ kilka pierwszych linijek kodu:
 
 ```python
 # This is a COMMENT
@@ -19,64 +18,58 @@ from microbit import display
 
 STOP !
 
-Pomyœlmy o 2 pierwszych linijkach.
-Pierwsza linijka zaczyna siê znakiem # i oznacza, ¿e to, co jest za tym znakiem, jest komentarzem.
-Komentarz jest ,,niewidoczn¹" dla komputera czêœci¹ kodu, która jest przydatna tylko dla cz³owieka, bo tylko on j¹ widzi. Komentarz to taka notatka dla nas, albo dla innych ludzi, opisuj¹ca co dzieje siê w danym fragmencie kodu.
+PomyÅ›lmy o 2 pierwszych linijkach. Pierwsza linijka zaczyna siÄ™ znakiem # i oznacza, Å¼e to, co jest za tym znakiem, jest komentarzem. Komentarz jest ,,niewidocznÄ…" dla komputera czÄ™Å›ciÄ… kodu, ktÃ³ra jest przydatna tylko dla czÅ‚owieka, bo tylko on jÄ… widzi. Komentarz to taka notatka dla nas, albo dla innych ludzi, opisujÄ…ca co dzieje siÄ™ w danym fragmencie kodu.
 
-Kolejna linijka jest ju¿ du¿o wa¿niejsza. Prosimy w niej Pythona, ¿eby zimportowa³ nam modu³ __display__ z modu³u microbit.
+Kolejna linijka jest juÅ¼ duÅ¼o waÅ¼niejsza. Prosimy w niej Pythona, Å¼eby zimportowaÅ‚ nam moduÅ‚ __display__ z moduÅ‚u microbit.
 
-Czym jest modu³?
-Pomyœlmy o nim jako pewnym konkretnym fragmencie kodu Pythona, napisanym ju¿ wczeœniej przez twórców jêzyka Python, który mo¿emy œci¹gn¹æ (zaimportowaæ), i który pomaga nam w naszej dalszej pracy. 
-Czyli ktoœ kiedyœ napisa³ pewne komendy w Pythonie, którymi mo¿emy teraz pos³ugiwaæ siê by nasza zabawa z programowaniem by³a ³atwiejsza.
+Czym jest moduÅ‚? PomyÅ›lmy o nim jako pewnym konkretnym fragmencie kodu Pythona, napisanym juÅ¼ wczeÅ›niej przez twÃ³rcÃ³w jÄ™zyka Python, ktÃ³ry moÅ¼emy Å›ciÄ…gnÄ…Ä‡ (zaimportowaÄ‡), i ktÃ³ry pomaga nam w naszej dalszej pracy. Czyli ktoÅ› kiedyÅ› napisaÅ‚ pewne komendy w Pythonie, ktÃ³rymi moÅ¼emy teraz posÅ‚ugiwaÄ‡ siÄ™ by nasza zabawa z programowaniem byÅ‚a Å‚atwiejsza.
 
-Teraz mo¿emy poprosiæ Micro:bita, by wyœwietli³ nam poni¿szy tekst:
+Teraz moÅ¼emy poprosiÄ‡ Micro:bita, by wyÅ›wietliÅ‚ nam poniÅ¼szy tekst:
 
 ```python
-# To jest ZNÓW komentarz, moglibyœmy tu wpisaæ jak¹œ notatkê, albo cokolwiek innego, to widzi tylko cz³owiek
+# To jest ZNÃ“W komentarz, moglibyÅ›my tu wpisaÄ‡ jakÄ…Å› notatkÄ™, albo cokolwiek innego, to widzi tylko czÅ‚owiek
 from microbit import display
 
 display.show("Hello WpiszSwojeImie, I am your Micro:bit")
 ```
 
-Co tym razem tutaj siê dzieje?
+Co tym razem tutaj siÄ™ dzieje?
 
-Pierwsza i druga linijka nie s¹ niczym nowym.
+Pierwsza i druga linijka nie sÄ… niczym nowym.
 
 A o co chodzi w trzeciej linijce kodu?
 
-U¿ywamy fragmentu kodu, którym jest s³owo _show_ wystêpuj¹ce wewn¹trz kodu, fragemntu kodu, jakim jest s³owo _display_.
+UÅ¼ywamy fragmentu kodu, ktÃ³rym jest sÅ‚owo show wystÄ™pujÄ…ce wewnÄ…trz kodu, fragemntu kodu, jakim jest sÅ‚owo display.
 
-Display po angielsku oznacza: wyœwietl, lub te¿ wyœwietlacz, a s³owo show = poka¿.
+Display po angielsku oznacza: wyÅ›wietl, lub teÅ¼ wyÅ›wietlacz, a sÅ‚owo show = pokaÅ¼.
 
-Spróbujmy teraz napisaæ podobny kod, ale z innym tekstem:
+SprÃ³bujmy teraz napisaÄ‡ podobny kod, ale z innym tekstem:
 
 ```python
-
 from microbit import display
 
 display.show("Helloo Poland!)
 ```
 
-Skopiuj ten tekst do swojego edytora Mu i naciœnij Flash!
+Skopiuj ten tekst do swojego edytora Mu i naciÅ›nij Flash!
 
-Mmmm.... czemu otrzymujemy Error, czyli b³¹d?
+Mmmm.... czemu otrzymujemy Error, czyli bÅ‚Ä…d?
 
-* Wykrzyknik na koñcu zdania powoduje problem?
-* Tekst jest za krótki?
-* Potrzebujemy znaku " na koñcu tekstu?
-* Helloo (po angielsku powinno byæ ,,Hello") nie jest zapisane poprawnie?
+* Wykrzyknik na koÅ„cu zdania powoduje problem?
+* Tekst jest za krÃ³tki?
+* Potrzebujemy znaku " na koÅ„cu tekstu?
+* Helloo (po angielsku powinno byÄ‡ ,,Hello") nie jest zapisane poprawnie?
 
-## Ale czemu robiæ to tylko jeden raz?
+## Ale czemu robiÄ‡ to tylko jeden raz?
 
-W naszym kodzie przes³aliœmy Micro:bitowi tekt, który ma wyœwietlaæ. Micro:bit wyœwietla ten tekst tylko raz.
-Co zrobiæ, jeœli chceby, by nasz Micro:bit wyœwietla³ nasz tekst ca³y czas?
-Musimy przedstawiæ Wam koncepcjê pêtli (pêtla po angielsku to ,,loop").
+W naszym kodzie przesÅ‚aliÅ›my Micro:bitowi tekt, ktÃ³ry ma wyÅ›wietlaÄ‡. Micro:bit wyÅ›wietla ten tekst tylko raz.
+Co zrobiÄ‡, jeÅ›li chceby, by nasz Micro:bit wyÅ›wietlaÅ‚ nasz tekst caÅ‚y czas? Musimy przedstawiÄ‡ Wam koncepcjÄ™ pÄ™tli (pÄ™tla po angielsku to ,,loop").
 
-Za pomoc¹ ,,pêtli" mówimy Micro:bitowi, ¿eby robi³ coœ dopóki jakiœ warunek jest spe³niony.
+Za pomocÄ… ,,pÄ™tli" mÃ³wimy Micro:bitowi, Å¼eby robiÅ‚ coÅ› dopÃ³ki jakiÅ› warunek jest speÅ‚niony.
 
-W Pythonie mamy ró¿ne rodzaje pêtli (czyli ró¿ne loops). Teraz zaczniemy u¿ywaæ jednej z tych pêtli. Pêtla ta nazywa siê: while.
+W Pythonie mamy rÃ³Å¼ne rodzaje pÄ™tli (czyli rÃ³Å¼ne loops). Teraz zaczniemy uÅ¼ywaÄ‡ jednej z tych pÄ™tli. PÄ™tla ta nazywa siÄ™: while.
 
-Komenda ,,while" jest komunikatem, który brzmi dok³adnie tak: rób coœ, dopóki warunek, czy te¿ inaczej nasze za³o¿enia s¹ prawdziwe.
+Komenda ,,while" jest komunikatem, ktÃ³ry brzmi dokÅ‚adnie tak: rÃ³b coÅ›, dopÃ³ki warunek, czy teÅ¼ inaczej nasze zaÅ‚oÅ¼enia sÄ… prawdziwe.
 
 ```python
 from microbit import display
@@ -85,7 +78,7 @@ while 1>0:
   display.show("Hello Poland!")
 ```
 
-Teraz spróbujmy w takim kodem:
+Teraz sprÃ³bujmy w takim kodem:
 
 ```python
 from microbit import display
@@ -94,8 +87,8 @@ while 1<0:
   display.show("Hello Poland!")
 ```
 
-W³aœnie zmieniliœmy warunek na coœ, co jest zawsze nieprawdziwe.
+WÅ‚aÅ›nie zmieniliÅ›my warunek na coÅ›, co jest zawsze nieprawdziwe.
 
-## Jaka jest ró¿nica miêdzy tymi dwoma fragmentami kodu?
+## Jaka jest rÃ³Å¼nica miÄ™dzy tymi dwoma fragmentami kodu?
 
-## Czemu komenda ,,display" nie jest napisana tu¿ pod s³owem ,,while"?
+## Czemu komenda ,,display" nie jest napisana tuÅ¼ pod sÅ‚owem ,,while"?

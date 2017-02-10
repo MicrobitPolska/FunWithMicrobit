@@ -1,16 +1,15 @@
 # Przyciski & Sensory
 
-## Czego nauczysz siê w tym rozdziale?
+## Czego nauczysz siÄ™ w tym rozdziale?
 
-* U¿ywania przycisków w celu kontrolowania Twojego Micro:bita
-* Pokazywania obrazków na Twoim Micro:bicie
-* £¹czenia teksu i obrazków
+* UÅ¼ywania przyciskÃ³w w celu kontrolowania Twojego Micro:bita
+* Pokazywania obrazkÃ³w na Twoim Micro:bicie
+* ÅÄ…czenia teksu i obrazkÃ³w
 
 ## Mamy przyciski
 
-Jak ju¿ pewnie zauwa¿y³eœ, Micro:bit ma 2 du¿e przyciski: A i B.
-Mo¿esz nimi zrobiæ wiele ciekawych rzeczy. Zacznijmy od czegoœ prostego.
-
+Jak juÅ¼ pewnie zauwaÅ¼yÅ‚eÅ›, Micro:bit ma 2 duÅ¼e przyciski: A i B.
+MoÅ¼esz nimi zrobiÄ‡ wiele ciekawych rzeczy. Zacznijmy od czegoÅ› prostego.
 
 ```python
 from microbit import *
@@ -19,75 +18,72 @@ sleep(10 * 1000)
 display.scroll(str(button_a.get_presses()))
 ```
 
-Poczekaj chwilê przed wyœwietleniem kodu!
+Poczekaj chwilÄ™ przed wyÅ›wietleniem kodu!
 
-Wiemy ju¿ mniej wiêcej, co oznacza: ,,from microbit import *". (microbit to modu³, gwiazdka oznacza ,,wszystko", czyli wszystkie modu³y dostêpne do u¿ycia w microbicie). Wiemy te¿, co oznacza: `sleep(10 * 1000)`.
+Wiemy juÅ¼ mniej wiÄ™cej, co oznacza: `from microbit import *`. (microbit to moduÅ‚, gwiazdka oznacza ,,wszystko", czyli wszystkie moduÅ‚y dostÄ™pne do uÅ¼ycia w microbicie). Wiemy teÅ¼, co oznacza: `sleep(10 * 1000)`.
 
-A co znaczy ten fragment: ,,display.scroll(str(button_a.get_presses()))"?
+A co znaczy ten fragment: `display.scroll(str(button_a.get_presses()))`?
 
-Widzimy, ¿e ta linijka sk³ada siê z kilku ró¿nych pojedynczych instrukcji.
+Widzimy, Å¼e ta linijka skÅ‚ada siÄ™ z kilku rÃ³Å¼nych pojedynczych instrukcji.
 
-Od œrodka mamy:
+Od Å›rodka mamy:
 
 1. `button_a.get_presses()`
 
-Ten kod zwraca nam liczbê klikniêæ przycisku A.
+Ten kod zwraca nam liczbÄ™ klikniÄ™Ä‡ przycisku A.
 
 2. `str()`
 
-Ta linijka zamienia ,,value", czyli otrzyman¹ liczbê, na string.
-String jest jednym z rodzajów danych, jakie rozumie Python (obok np. liczb). Jest to po prostu fragment znaków, liter, czy wyraz, w odró¿nieniu od na przyk³ad liczby.(Liczby mo¿na np. dodawaæ, a stringów ju¿ nie, bo to inny typ danych).
-"1" i 1 to ró¿ne wartoœci w Pythonie.  "1" (zapisane w cudzys³owiu) to jest string (czyli wyraz), natomiast 1 to jest liczba, w tym wypadku liczba ca³kowita, czyli po angielsku integer.
-Musimy zamieniæ liczbê na string, poniewa¿ komenda ,,dispal.scroll()" rozumie tylko stringi.
+Ta linijka zamienia ,,value", czyli otrzymanÄ… liczbÄ™, na string. String jest jednym z rodzajÃ³w danych, jakie rozumie Python (obok np. liczb). Jest to po prostu fragment znakÃ³w, liter, czy wyraz, w odrÃ³Å¼nieniu od na przykÅ‚ad liczby.(Liczby moÅ¼na np. dodawaÄ‡, a stringÃ³w juÅ¼ nie, bo to inny typ danych). "1" i 1 to rÃ³Å¼ne wartoÅ›ci w Pythonie. "1" (zapisane w cudzysÅ‚owiu) to jest string (czyli wyraz), natomiast 1 to jest liczba, w tym wypadku liczba caÅ‚kowita, czyli po angielsku integer. Musimy zamieniÄ‡ liczbÄ™ na string, poniewaÅ¼ komenda ,,dispal.scroll()" rozumie tylko stringi.
 
 3. `display.scroll()`
 
-Tej komendy wczeœniej ju¿ u¿yliœmy. Wyœwietla ona wskazany tekst za poœrednictwem diod.
+Tej komendy wczeÅ›niej juÅ¼ uÅ¼yliÅ›my. WyÅ›wietla ona wskazany tekst za poÅ›rednictwem diod.
 
-Podsumowuj¹c wszystko razem:
+PodsumowujÄ…c wszystko razem:
 
-1. Zbieramy iloœæ klikniêæ przycisku A
+1. Zbieramy iloÅ›Ä‡ klikniÄ™Ä‡ przycisku A
 2. Zmieniamy ten numer na string
-3. Wyœwietlamy wartoœæ na Micro:bicie
+3. WyÅ›wietlamy wartoÅ›Ä‡ na Micro:bicie
 
-Ok, teraz mo¿esz klikn¹æ Flash, by wyœwietliæ swój kod!
+Ok, teraz moÅ¼esz kliknÄ…Ä‡ Flash, by wyÅ›wietliÄ‡ swÃ³j kod!
 
-### Jak dzia³a ten kod?
-### Jak myœlisz, jak mo¿emy poprawiæ ten kod?
+### Jak dziaÅ‚a ten kod?
+### Jak myÅ›lisz, jak moÅ¼emy poprawiÄ‡ ten kod?
 
 ### Zadanie
 
-Czy umiesz napisaæ program, który liczy liczbê klikniêæ przycisku B w ci¹gu 5 sekund?
+Czy umiesz napisaÄ‡ program, ktÃ³ry liczy liczbÄ™ klikniÄ™Ä‡ przycisku B w ciÄ…gu 5 sekund?
 
 Masz 10 minut!
 
-## Czas na ulepszenie kodu: czêœæ 1#
+## Czas na ulepszenie kodu: czÄ™Å›Ä‡ 1
 
-Ten kod dzia³a, ale chcielibyœmy te¿ dodaæ kilka nowych funkcjonalnoœci:
+Ten kod dziaÅ‚a, ale chcielibyÅ›my teÅ¼ dodaÄ‡ kilka nowych funkcjonalnoÅ›ci:
 
-Chcemy, by przed rozpoczêciem liczenia wyœwietla³o siê odliczanie, np. 3, 2, 1, 0, start! Czyli w skrócie:
+Chcemy, by przed rozpoczÄ™ciem liczenia wyÅ›wietlaÅ‚o siÄ™ odliczanie, np. 3, 2, 1, 0, start! Czyli w skrÃ³cie:
 
-* poka¿ odliczanie (np. 3, 2, 1, 0)
-* poka¿ liczbê klikniêæ przycisku B
+* pokaÅ¼ odliczanie (np. 3, 2, 1, 0)
+* pokaÅ¼ liczbÄ™ klikniÄ™Ä‡ przycisku B
  
 ```python
 from microbit import *
 
 countdown = ['3','2','1','0']
 display.show(countdown, 1*1000)
-display.clear() # T¹ linijk¹ ,,czyœcimy" nasz wyœwietlacz :)
+display.clear() # TÄ… linijkÄ… ,,czyÅ›cimy" nasz wyÅ›wietlacz :)
 
 sleep(10 * 1000)
 display.scroll(str(button_b.get_presses()))
 ```
 
-## Czas na ulepszenie naszego kodu: czêœæ 2#
+## Czas na ulepszenie naszego kodu: czÄ™Å›Ä‡ 2
 
-Teraz chcemy jeszcze dodaæ tekst przed odliczaniem: ,,Naciœnij przycisk A ¿eby zacz¹æ"
+Teraz chcemy jeszcze dodaÄ‡ tekst przed odliczaniem: ,,NaciÅ›nij przycisk A Å¼eby zaczÄ…Ä‡"
 
-Innymi s³owy chcemy, ¿eby Micro:bit wyœwietla³ nam informacjê, ¿e mamy nacisn¹æ przycisk A, o ile nie jest ju¿ wciœniêty.
+Innymi sÅ‚owy chcemy, Å¼eby Micro:bit wyÅ›wietlaÅ‚ nam informacjÄ™, Å¼e mamy nacisnÄ…Ä‡ przycisk A, o ile nie jest juÅ¼ wciÅ›niÄ™ty.
 
-Jak mo¿emy to zakodowaæ?
+Jak moÅ¼emy to zakodowaÄ‡?
 
 ```python
 from microbit import *
@@ -103,14 +99,13 @@ sleep(10 * 1000)
 display.scroll(str(button_b.get_presses()))
 ```
 
-
 ## Ostatni krok!
 
-Ostatnim krokiem bêdzie mo¿liwoœæ powtórzenia gry.
+Ostatnim krokiem bÄ™dzie moÅ¼liwoÅ›Ä‡ powtÃ³rzenia gry.
 
-To oznacza nieskoñczone powtrzanie kodu, który napisaliœmy wczeœniej.
+To oznacza nieskoÅ„czone powtrzanie kodu, ktÃ³ry napisaliÅ›my wczeÅ›niej.
 
-wskazówka: ¿eby powtarzaæ kod w nieskoñczonoœæ musimy u¿yæ komendy ,,while True" (czyli: dopóki prawda, zrób coœ)
+wskazÃ³wka: Å¼eby powtarzaÄ‡ kod w nieskoÅ„czonoÅ›Ä‡ musimy uÅ¼yÄ‡ komendy ,,while True" (czyli: dopÃ³ki prawda, zrÃ³b coÅ›).
 
 ```python
 from microbit import *
@@ -128,7 +123,7 @@ while True:
 
 ## Poczuj sensory
 
-Micro:bit ma rózne sensory. Jednym z nich jest akcelerometr, którego mo¿emy u¿yæ do rozpoznawania niektórych ruchów.
+Micro:bit ma rÃ³zne sensory. Jednym z nich jest akcelerometr, ktÃ³rego moÅ¼emy uÅ¼yÄ‡ do rozpoznawania niektÃ³rych ruchÃ³w.
 
 ```python
 up
@@ -143,9 +138,9 @@ freefall
 8g
 ```
 
-Mo¿esz otrzymaæ aktualne po³o¿enie Micro:bita u¿ywaj¹c komendy: ,,accelerometer.current_gesture()". Ta komenda w wyniku zwróci nam string.
+MoÅ¼esz otrzymaÄ‡ aktualne poÅ‚oÅ¼enie Micro:bita uÅ¼ywajÄ…c komendy: ,,accelerometer.current_gesture()". Ta komenda w wyniku zwrÃ³ci nam string.
 
-Spróbujmy to zobaczyæ na prostym przyk³adzie:
+SprÃ³bujmy to zobaczyÄ‡ na prostym przykÅ‚adzie:
 
 ```python
 from microbit import *
@@ -171,4 +166,4 @@ while True:
         display.show(x)
 ```
 
-Wyœwietl ten kod!
+WyÅ›wietl ten kod!

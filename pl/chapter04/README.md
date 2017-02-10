@@ -1,16 +1,16 @@
 # Animacje
 
-## Czego nauczysz siê w tym rozdziale?
+## Czego nauczysz siÄ™ w tym rozdziale?
 
-* Wyœwietlaæ tekst na swoim BBC Micro:bicie
-* Wyœwietlaæ obrazki na swoim BBC Micro:bicie
-* £¹czyæ tekst z obrazkami
+* WyÅ›wietlaÄ‡ tekst na swoim BBC Micro:bicie
+* WyÅ›wietlaÄ‡ obrazki na swoim BBC Micro:bicie
+* ÅÄ…czyÄ‡ tekst z obrazkami
 
-## Wyœwietlanie obrazów
+## WyÅ›wietlanie obrazÃ³w
 
-Wyœwietlanie tekstu jest fajne, ale spróbujmy teraz powyœwietlaæ obrazki!
+WyÅ›wietlanie tekstu jest fajne, ale sprÃ³bujmy teraz powyÅ›wietlaÄ‡ obrazki!
 
-Zacznijmy z czymœ...weso³ym:)
+Zacznijmy z czymÅ›...wesoÅ‚ym :)
 
 ```python
 from microbit import *
@@ -18,10 +18,10 @@ from microbit import *
 display.show(Image.HAPPY)
 ```
 
-Czy przes³a³eœ kod do swojego Micro:bita?
+Czy przesÅ‚aÅ‚eÅ› kod do swojego Micro:bita?
 
 
-To jest lista obrazków, które mo¿esz u¿yæ:
+To jest lista obrazkÃ³w, ktÃ³re moÅ¼esz uÅ¼yÄ‡:
 
 ```python
 Image.HEART
@@ -47,9 +47,9 @@ Image.UMBRELLA
 Image.SNAKE
 ```
 
-Spróbuj wypróbowaæ kilka z nich.
+SprÃ³buj wyprÃ³bowaÄ‡ kilka z nich.
 
-Spróbuj równie¿ wyœwietliæ wiêcej ni¿ jeden obrazek!
+SprÃ³buj rÃ³wnieÅ¼ wyÅ›wietliÄ‡ wiÄ™cej niÅ¼ jeden obrazek!
 
 ```python
 from microbit import *
@@ -60,15 +60,15 @@ display.show(Image.HOUSE)
 
 Podyskutujmy teraz o rezultacie tego kodu:)
 
-# Wyœwietlanie 2 obrazków
+# WyÅ›wietlanie 2 obrazkÃ³w
 
-Nie widzimy pierwszego obrazka, poniewa¿...Micro:bit wykonuje wyœwietlenie drugiego obrazka tak szybko, ¿e nie widzimy tego pierwszego.
+Nie widzimy pierwszego obrazka, poniewaÅ¼...Micro:bit wykonuje wyÅ›wietlenie drugiego obrazka tak szybko, Å¼e nie widzimy tego pierwszego.
 
-Poproœmy Micro:bita, ¿eby na trochê...zasn¹³.
+PoproÅ›my Micro:bita, Å¼eby na trochÄ™...zasnÄ…Å‚.
 
-Jest specjalna komenda, która nazywa siê sleep(seconds*1000), która przenosi Twojego Micro:bita w specjalny rodzaj snu.
+Jest specjalna komenda, ktÃ³ra nazywa siÄ™ sleep(seconds*1000), ktÃ³ra przenosi Twojego Micro:bita w specjalny rodzaj snu.
 
-Spróbujmy wpisaæ t¹ komendê, a wewn¹trz ,,(seconds*1000)" powinieneœ zast¹piæ s³owo ,,seconds" liczb¹ sekund, w czasie których chcesz, ¿eby Twój Micro:bit spa³.
+SprÃ³bujmy wpisaÄ‡ tÄ… komendÄ™, a wewnÄ…trz ,,(seconds*1000)" powinieneÅ› zastÄ…piÄ‡ sÅ‚owo ,,seconds" liczbÄ… sekund, w czasie ktÃ³rych chcesz, Å¼eby TwÃ³j Micro:bit spaÅ‚.
 
 ```python
 from microbit import *
@@ -77,14 +77,13 @@ display.show(Image.HAPPY)
 sleep(10*1000)
 display.show(Image.HOUSE)
 ```
+WyÅ›wietl ten kod i zobacz jak dziaÅ‚a!
 
-Wyœwietl ten kod i zobacz jak dzia³a!
+# StwÃ³rz swÃ³j wÅ‚asny obrazek!
 
-# Stwórz swój w³asny obrazek!
+Micro:bit zna wiele rÃ³Å¼nych obrazkÃ³w, ale moÅ¼emy teÅ¼ stworzyÄ‡ nowe.
 
-Micro:bit zna wiele ró¿nych obrazków, ale mo¿emy te¿ stworzyæ nowe.
-
-To dzia³a tak:
+To dziaÅ‚a tak:
 
 
 ```python
@@ -96,20 +95,20 @@ new_image = Image(
              "11111")
 display.show(new_image)
 ```
-W³aœnie stworzyliœmy nowy obrazek!
+WÅ‚aÅ›nie stworzyliÅ›my nowy obrazek!
 
-Ale czym s¹ te numery?
+Ale czym sÄ… te numery?
 
-Mamy 5 linijek i 5 numerów w ka¿dej linijce.
+Mamy 5 linijek i 5 numerÃ³w w kaÅ¼dej linijce.
 
-To s¹ nasze diody! 
+To sÄ… nasze diody!
 
-Ka¿dy numer oznacza jedn¹ diodê na naszym Micro:bicie, pocz¹wszy od lewego górnego rogu.
+KaÅ¼dy numer oznacza jednÄ… diodÄ™ na naszym Micro:bicie, poczÄ…wszy od lewego gÃ³rnego rogu.
 
 Mamy tutaj 1 i 9.
 
-Czy mo¿esz powiedzieæ co siê zmienia, jak u¿ywamy 0, 1 lub 9 ?
+Czy moÅ¼esz powiedzieÄ‡ co siÄ™ zmienia, jak uÅ¼ywamy 0, 1 lub 9?
 
-Wskazówka: mo¿emy tu u¿ywaæ numerów od 0 do 9.
+WskazÃ³wka: moÅ¼emy tu uÅ¼ywaÄ‡ numerÃ³w od 0 do 9.
 
 Poeksperymentuj!

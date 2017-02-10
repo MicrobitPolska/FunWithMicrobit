@@ -1,95 +1,91 @@
 # Micro:bit & Edytor Mu
 
-## Czego nauczysz siê w tym rozdziale?
+## Czego nauczysz siÄ™ w tym rozdziale?
 
 * Czym jest BBC:Microbit
-* W jakim jêzyku mo¿emy rozmawiaæ z Micro:bitem
-* Jak rozmawiaæ z Micro:bitem (Edytor Mu)
+* W jakim jÄ™zyku moÅ¼emy rozmawiaÄ‡ z Micro:bitem
+* Jak rozmawiaÄ‡ z Micro:bitem (Edytor Mu)
 
 ## BBC Micro:bit
 Czym jest BBC Micro:bit ?
 
-Powininen byæ w³aœnie przed Tob¹. To bardzo cienkie urz¹dzenie, ma³y komputer.
+Powininen byÄ‡ wÅ‚aÅ›nie przed TobÄ…. To bardzo cienkie urzÄ…dzenie, maÅ‚y komputer.
 
-Ma 2 g³ówne przyciski (A i B), wyœwietlacz 5 x 5 sk³adaj¹cy siê z czerwonych diod, kilka sensorów, akcelerometr i kompas.
-
+Ma 2 gÅ‚Ã³wne przyciski (A i B), wyÅ›wietlacz 5 x 5 skÅ‚adajÄ…cy siÄ™ z czerwonych diod, kilka sensorÃ³w, akcelerometr i kompas.
 ![BBC Micro:bit](images/microbit-front.png)
 
-Mo¿emy u¿ywaæ przycisków i sensorów jako wejœæ (wejœcie oznacza miejsce, przez które dajemy informacje microbitowi) a wyœwietlacza po to, by nam coœ pokazywa³, np. obrazki albo tekst (to jest nasz output, czyli wyjœcie).
+MoÅ¼emy uÅ¼ywaÄ‡ przyciskÃ³w i sensorÃ³w jako wejÅ›Ä‡ (wejÅ›cie oznacza miejsce, przez ktÃ³re dajemy informacje microbitowi) a wyÅ›wietlacza po to, by nam coÅ› pokazywaÅ‚, np. obrazki albo tekst (to jest nasz output, czyli wyjÅ›cie).
 
-Mo¿esz programowaæ swojego Micro:bita pod³¹czaj¹c go do komputera, ma micro-usb port. Jak go pod³¹czysz zobaczysz migaj¹c¹ diodê.
-Microbit ma równie¿ ma³e z³¹cze, do którego mo¿esz pod³¹czyæ baterie, dostarczaj¹c mu w ten sposób energiê bez u¿ycia komputera. 
+MoÅ¼esz programowaÄ‡ swojego Micro:bita podÅ‚Ä…czajÄ…c go do komputera, ma micro-usb port. Jak go podÅ‚Ä…czysz zobaczysz migajÄ…cÄ… diodÄ™. Microbit ma rÃ³wnieÅ¼ maÅ‚e zÅ‚Ä…cze, do ktÃ³rego moÅ¼esz podÅ‚Ä…czyÄ‡ baterie, dostarczajÄ…c mu w ten sposÃ³b energiÄ™ bez uÅ¼ycia komputera. 
 
 ## Rozmawianie z Micro:bitem
-¯eby rozmawiaæ ze swoim Micro:bitem potrzebujesz mówiæ w jêzyku, który on rozumie, czyli w: Pythonie.
+Å»eby rozmawiaÄ‡ ze swoim Micro:bitem potrzebujesz mÃ³wiÄ‡ w jÄ™zyku, ktÃ³ry on rozumie, czyli w: Pythonie.
 
-Ale gdzie mo¿emy pisaæ nasz kod? Mo¿na do tego u¿yæ edytora tekstowego ,,Mu".
-Mu jest specjalnym edytorem stworzonym do programowania Micro:bitów.
+Ale gdzie moÅ¼emy pisaÄ‡ nasz kod? MoÅ¼na do tego uÅ¼yÄ‡ edytora tekstowego ,,Mu". Mu jest specjalnym edytorem stworzonym do programowania Micro:bitÃ³w.
 
-Zacznijmy korzystaæ z edytora Mu.
+Zacznijmy korzystaÄ‡ z edytora Mu.
 
-Powinieneœ mieæ ju¿ zainstalwany edytor Mu na swoim komputerze. Jeœli jeszcze go nie masz, odwiedŸ t¹ [stronê](/README.md#install-mu-editor "Install Mu editor").
+PowinieneÅ› mieÄ‡ juÅ¼ zainstalwany edytor Mu na swoim komputerze. JeÅ›li jeszcze go nie masz, odwiedÅº tÄ… [stronÄ™](/README.md#install-mu-editor "Install Mu editor").
 
 ## Edytor Mu
 
-Najpierw powinieneœ otworzyæ Mu editor na swoim komputerze. Powinieneœ zobaczyæ coœ podobnego: 
+Najpierw powinieneÅ› otworzyÄ‡ Mu editor na swoim komputerze. PowinieneÅ› zobaczyÄ‡ coÅ› podobnego:
 
 ![Mu editor](images/mu-editor.png)
 
-1. Czerwone pole to miejsce, w którym piszesz swój koda
-2. Niebieskie pole to miejsce, w którym znajduj¹ siê 4 wa¿ne przyciski.
+1. Czerwone pole to miejsce, w ktÃ³rym piszesz swÃ³j koda
+2. Niebieskie pole to miejsce, w ktÃ³rym znajdujÄ… siÄ™ 4 waÅ¼ne przyciski.
 
-Tutaj mo¿esz zobaczyæ te 4 przyciski w powiêkszeniu.
+Tutaj moÅ¼esz zobaczyÄ‡ te 4 przyciski w powiÄ™kszeniu.
 
 ![Mu buttons](images/buttons.png)
 
 Te 4 przyciski to:
 
-1. New: otwiera now¹ kartê w edytorze Mu
-2. Load: ³aduje plik z Twojego komputera
-3. Save: zapisuje Twój kod na komputerze
-4. Flash: ta komenda wysy³a kod do Twojego Micro:bita
+1. New: otwiera nowÄ… kartÄ™ w edytorze Mu
+2. Load: Å‚aduje plik z Twojego komputera
+3. Save: zapisuje TwÃ³j kod na komputerze
+4. Flash: ta komenda wysyÅ‚a kod do Twojego Micro:bita
 
-Pliki, które zapisujemy i ³adujemy, to zwyk³y tekst, czyli pliki tekstowe.
-Ale jak rozpoznajemy, ¿e s¹ to pliki Pythona?
-Po nazwie. (A dok³adniej, po rozszerzeniu tej nazwy po kropce).
+Pliki, ktÃ³re zapisujemy i Å‚adujemy, to zwykÅ‚y tekst, czyli pliki tekstowe. Ale jak rozpoznajemy, Å¼e sÄ… to pliki Pythona?
+Po nazwie. (A dokÅ‚adniej, po rozszerzeniu tej nazwy po kropce).
 
-Zapisz swój pierwszy plik na komputerze.
+Zapisz swÃ³j pierwszy plik na komputerze.
 
 1. Kliknij przycisk ,,Save"
-2. Zmieñ lokalizacjê zapisania swojego pliku tak, by zapisaæ go na Pulpicie
-2. Wpisz nazwê swojego pliku (np. Twoje imiê)
-3. Naciœnij ,,save"!
+2. ZmieÅ„ lokalizacjÄ™ zapisania swojego pliku tak, by zapisaÄ‡ go na Pulpicie
+2. Wpisz nazwÄ™ swojego pliku (np. Twoje imiÄ™)
+3. NaciÅ›nij ,,save"!
 
-A teraz spójrz na swój plik: nazywa siê twojeImiê.py
+A teraz spÃ³jrz na swÃ³j plik: nazywa siÄ™ twojeImiÄ™.py
 
 Co oznacza .py?
 
-Kod Pythona to zwyk³y tekst, tylko posiadaj¹cy rozszerzenie .py, i tak te¿ mo¿emy rozpoznaæ, ¿e jest to plik Pythona, czyli taki, którego Python zrozumie.
-Edytor Mu automatycznie zapisuje pliki w formacie .py, wiêc nie musimy siê sami o to martwiæ.
+Kod Pythona to zwykÅ‚y tekst, tylko posiadajÄ…cy rozszerzenie .py, i tak teÅ¼ moÅ¼emy rozpoznaÄ‡, Å¼e jest to plik Pythona, czyli taki, ktÃ³rego Python zrozumie.
+Edytor Mu automatycznie zapisuje pliki w formacie .py, wiÄ™c nie musimy siÄ™ sami o to martwiÄ‡.
 
 ## Nasz pierwszy program
 
-Maj¹c ju¿ otwarty edytor Mu, mo¿esz teraz pod³¹czyæ Micro:bita do swojego komputera i nacisn¹æ przycisk ,,Flash".
+MajÄ…c juÅ¼ otwarty edytor Mu, moÅ¼esz teraz podÅ‚Ä…czyÄ‡ Micro:bita do swojego komputera i nacisnÄ…Ä‡ przycisk ,,Flash".
 
-Powinieneœ widzieæ migaj¹ce ¿ó³te œwiate³ko. To oznacza, ¿e wszystko dzia³a, i komputer widzi Micro:bita.
+PowinieneÅ› widzieÄ‡ migajÄ…ce Å¼Ã³Å‚te Å›wiateÅ‚ko. To oznacza, Å¼e wszystko dziaÅ‚a, i komputer widzi Micro:bita.
 
-A teraz ma³a powtórka
+A teraz maÅ‚a powtÃ³rka.
 
 ## Czym jest BBC Micro:bit?
 
 * Serialem telewizyjnym BBC?
-* Jêzykiem programowania?
-* Mikrokomputerem, który mo¿esz programowaæ?
+* JÄ™zykiem programowania?
+* Mikrokomputerem, ktÃ³ry moÅ¼esz programowaÄ‡?
 * Edytorem?
 
-## Spróbuj otworzyæ Mu editor, zachowaæ plik i nastêpnie go za³adowaæ (otworzyæ)
+## SprÃ³buj otworzyÄ‡ Mu editor, zachowaÄ‡ plik i nastÄ™pnie go zaÅ‚adowaÄ‡ (otworzyÄ‡)
 
-* Co oznacza s³owo ,,programowanie"?
+* Co oznacza sÅ‚owo ,,programowanie"?
 * Czym jest BBC Micro:bita?
-* W jakim jêzyku mo¿emy rozmawiaæ z Micro:bitem?
-* Jak rozmawiaæ z Micro:bitem (MuEditor)
+* W jakim jÄ™zyku moÅ¼emy rozmawiaÄ‡ z Micro:bitem?
+* Jak rozmawiaÄ‡ z Micro:bitem (Mu Editor)
 
 ## Na razie to wszystko
 
-Gotowy na nastêpny rozdzia³?
+Gotowy na nastÄ™pny rozdziaÅ‚?

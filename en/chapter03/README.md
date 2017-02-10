@@ -95,8 +95,6 @@ while 1<0:
   display.show("Hello Poland!")
 ```
 
-## ADD SOMETHING ABOUT FOR LOOP
-
 We just changed the condition with something that is always _False_.
 
 ## What is the difference between these codes ?

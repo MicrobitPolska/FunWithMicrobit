@@ -89,6 +89,8 @@ This is how it works
 
 
 ```python
+from microbit import *
+
 new_image = Image(
              "11111:"
              "19991:"

@@ -88,7 +88,7 @@ You should see the yellow led light blinking....is working!
 * What it means 'programming'
 * What BBC Micro:bit is
 * In which language we can talk with BBC Micro:bit
-* How to talk with your Micro:Bit (MuEditor)
+* How to talk with your Micro:Bit (Mu Editor)
 
 ## That's all
 
