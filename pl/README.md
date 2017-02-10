@@ -7,7 +7,6 @@
 
 Witaj w __FunWithMicrobit__, ten warsztat zapozna Cię z Pythonem i światem BBC Micro:bit
 
-
 ## Przed rozpoczęciem
 
 ### Czy masz swojego BBC Micro:bita ?
@@ -20,7 +19,7 @@ Jeśli ten warsztat jest zorganizowany przez Microbit:Polska to powinieneś otrz
 
 ### Zainstaluj edytor Mu
 
-Do tego kursu potrzebujesz mieć [MuEditor](https://codewith.mu/ "Mu editor") zainstalowany na swoim komputerze.
+Do tego kursu potrzebujesz mieć [Mu Editor](https://codewith.mu/ "Mu editor") zainstalowany na swoim komputerze.
 
 __Mu Editor__ dostępny jest na 3 platformy: Windows, Linux and OS X.
 Wejdź w link podany na górze i zainstaluj wersję pasującą do Twojego systemu.
@@ -48,6 +47,3 @@ Na koniec zaprezentuj grupie to, co w tym czasie stworzyłeś!
 # Scenariusz zajęć
 
 Stwórzcie swój indywidualny scenariusz zajęć, dostosowany do waszej grupy uczniów. 
-
-
-

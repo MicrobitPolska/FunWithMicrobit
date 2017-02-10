@@ -20,7 +20,7 @@ If this workshop is organized by Microbit:Polska you should have received:
 
 ### Install Mu editor
 
-To follow this course you need to have [MuEditor](https://codewith.mu/ "Mu editor") installed don your computer.
+To follow this course you need to have [Mu Editor](https://codewith.mu/ "Mu editor") installed don your computer.
 
 __Mu Editor__ is available for 3 platforms: Windows, Linux and OS X.
 Just follow the link above and download and install the version for your computer.

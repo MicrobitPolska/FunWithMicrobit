@@ -2,66 +2,54 @@
 
 ## What will you learn during this chapter ?
 
-* What it means 'programming'
-* What BBC Micro:bit is
-* In which language we can talk with BBC Micro:bit
-* How to talk with your Micro:Bit (MuEditor)
+* Mixing the lectures to create something new!
 
-## The art of programming
-Probably you have already heard the word 'programming'.
+Form some groups and try to work together, if you need any help don't be afraid to ask!
+
+## Python Programmers
+If you need any help don't forget to check the [Micro:bit Micropython docs](https://microbit-micropython.readthedocs.io).
+
+
+## Quest  n.1 - Display a Christmas Tree
+Yeah.... Christmas is over, but a Christmas tree is always nice.
+Try to display a Christmas tree on you Micro:bit.
+
+Hints:
+* Remember you have to use Image()
+
+## Quest n.2 - Display the button you pressed
+The goal of this quest is to write a program that display the name of the button you pressed.
+
+Hints:
+* You only have 2 buttons __A__ and __B__
+* try to use `if`
+* use `is_pressed()`
+
+## Quest n.3 - Shack and display messages!
+The goal of this quest is to write a program that display different messages everytime you shack you Micro:bit.
+
+Some hints:
+* you can put all your messages inside a list
+* use `accelerometer.was_gesture("shake")`
+* pick a random message using random.choice(messages)
 
 But what does it mean ?
 
-Well, to simplify programming is the art to talk with an electronic device (a computer or a BBC Micro:bit for example)
-to tell it do to something.
-See the Micro:bit as a best friend and programming like the way to ask him for a favour.
+## Quest n.4 - Show the direction of you Micro:bit
+Micro:bit comes with an _accelorometer_, a sensor that gives you the direction of the Micro:bit.
+Build a program that shows the direction of the Micro:bit with an arrow.
 
+Hints:
+* Consider only `up`, `down`, `left` and `right`
+* Build the arrows using Image()
+* Use `accelerometer.current_gesture()` to get the current direction
+* Don't forget about `while True:`
 
-## BBC Micro:bit
-What is a BBC Micro:bit ?
+## Quest n.5 - Use the radio
+Try to build a simple text-walkie-talkie with your friends.
+Choose a message and send the message to your friend every time you push a button (A or B).
 
-It should be in your hands already.....is a very tiny device, a small computer.
-
-It has 2 main buttons (A and B), a display formed by 25 red leds (very small lights), a radio module and some sensors, an accelorometer and a compass.
-
-![BBC Micro:bit](images/microbit-front.png)
-
-We can use the buttons and the sensors as inputs (input means we give some information to the microbit) and the display to show something like images and text (output).
-
-You can program your Micro:bit connecting it to your computer, it has a micro-usb port, if you plug it you will see leds blinking.
-It also has a small connector where you can plug a battery-box, in this way you can give energy to your Micro:bit without a computer.
-
-## Python
-Computer can understand only 0 and 1 but we do not.
-How can we talk with a computer in a language what we understand ?
-That's where Python comes in.
-
-Python is a programming language easy to read for us but can be easlily translated in 0 and 1 (we don't have to worry about this,
-Python is going to do this itself).
-
-An example ?
-
-```python
-print("Hello ! I am Python")
-```
-This line would print 'Hello !, I am Python' in your computer.
-Nothing complicated !
-
-## Talking with your BBC Micro:bit
-So to talk with your BBC Micro:bit you need to talk a language that it can understand: Python.
-
-But where can we write our code ? We can use a text editor for this, **Mu**.
-Mu is an editor specifically made to program the BBC Micro:bit.
-
-Let's start Mu
-
-## multiple choice questions here (MCQs) ?
-
-* What it means 'programming'
-* What BBC Micro:bit is
-* In which language we can talk with BBC Micro:bit
-* How to talk with your Micro:Bit (MuEditor)
-
-## That's all
-
-Ready for the next chapter ?
+Hints:
+* Remember to call `radio.on()`
+* When you receive a radio-message scroll the message
+* To simplify the program consider that only one Micro:bit at time will send a message
