@@ -51,7 +51,7 @@ square = Image(
              "99999")
 
 radio.on()
-radio.config(group=5)
+radio.config(group=YourGroupNumber)
 
 while True:
     display.show([very_small_square, small_square, square], delay=200)
