@@ -1,67 +1,53 @@
 # Pick&Mix
 
-## What will you learn during this chapter ?
+## Czego nauczysz się w tym rozdziale?
 
-* What it means 'programming'
-* What BBC Micro:bit is
-* In which language we can talk with BBC Micro:bit
-* How to talk with your Micro:Bit (MuEditor)
+* Łączenia tego, co się nauczyłeś, do tworzenia czegoś zupełnie nowego!
 
-## The art of programming
-Probably you have already heard the word 'programming'.
+Dobierzcie się w kilkuosobowe grupy i pracujcie teraz razem. Jeśli będziecie potrzebować pomocy, to mówcie
 
-But what does it mean ?
-
-Well, to simplify programming is the art to talk with an electronic device (a computer or a BBC Micro:bit for example)
-to tell it do to something.
-See the Micro:bit as a best friend and programming like the way to ask him for a favour.
+## Programiści Pythona
+Jeśli potrzebujecie pomocy, możescie zajrzeć do [Micro:bit Micropython docs](https://microbit-micropython.readthedocs.io).
 
 
-## BBC Micro:bit
-What is a BBC Micro:bit ?
+## Ćwiczenie nr 1 - Wyświetl choinkę
+Święta się skończyły, ale choinki są zawsze fajne.
+Spróbuj stworzyć choinkę i wyświetlić ją na Micro:bicie.
 
-It should be in your hands already.....is a very tiny device, a small computer.
+Wskazówka:
+* Pamiętaj, żeby użyć Image()
 
-It has 2 main buttons (A and B), a display formed by 25 red leds (very small lights), a radio module and some sensors, an accelorometer and a compass.
+## Ćwiczenie nr 2 - Wyświetl przycisk, który nacisnąłeś
+W tym ćwiczeniu spróbuj napisać program, który wyświetli nazwę przycisku, który wcześniej naciśniesz.
 
-![BBC Micro:bit](images/microbit-front.png)
+Wskazówka:
+* Masz tylko 2 przycisku __A__ i __B__
+* spróbuj użyć "if"
+* użyj "is_pressed()""
 
-We can use the buttons and the sensors as inputs (input means we give some information to the microbit) and the display to show something like images and text (output).
+## Ćwiczenie nr 3 - Wstrząśnij i wyświetl wiadomość!
+Celem tego ćwiczenia jest napisanie programu, który wyświetla inną wiadomość za każdym razem, jak wstrząśniesz swoim Micro:bitem.
 
-You can program your Micro:bit connecting it to your computer, it has a micro-usb port, if you plug it you will see leds blinking.
-It also has a small connector where you can plug a battery-box, in this way you can give energy to your Micro:bit without a computer.
+Wskazówki:
+* możesz umieścić wszystkie swoje wiadomości wewnątrz listy (stworzyć listę wiadomości)
+* użyj `accelerometer.was_gesture("shake")`
+* wybierz przypadkową wiadomość za pomocą komendy random.choice(messages)
 
-## Python
-Computer can understand only 0 and 1 but we do not.
-How can we talk with a computer in a language what we understand ?
-That's where Python comes in.
+## Ćwiczenie nr 4 - Pokaż pozycję swojego Micro:bita
+W Micro:bicie znajduje się akcelerometr, czyli czujnik, który pokazuje pozycję, w jakiej znajduje się Micro:bit.
+Spróbuj stworzyć program, który pokazuje pozycję Twojego Micro:bita za pomocą strzałki.
 
-Python is a programming language easy to read for us but can be easlily translated in 0 and 1 (we don't have to worry about this,
-Python is going to do this itself).
+Wskazówki:
+* Weź pod uwagę tylko pozycje takie jak `up`, `down`, `left` and `right`
+* Zbuduj strzałki, używając komendy Image()
+* Użyj `accelerometer.current_gesture()` żeby uzyskać informację o położeniu Micro:bita
+* Nie zapomnij o użyciu `while True:`
 
-An example ?
+## Ćwiczenie nr 5 - Użyj radia
+Spróbuj zbudować proste tekstowe walkie-talkie z kilkoma osobami.
+Wybierz wiadomość i wyślij ją za każdym razem, kiedy naciśniesz przycisk (A lub B).
 
-```python
-print("Hello ! I am Python")
-```
-This line would print 'Hello !, I am Python' in your computer.
-Nothing complicated !
-
-## Talking with your BBC Micro:bit
-So to talk with your BBC Micro:bit you need to talk a language that it can understand: Python.
-
-But where can we write our code ? We can use a text editor for this, **Mu**.
-Mu is an editor specifically made to program the BBC Micro:bit.
-
-Let's start Mu
-
-## multiple choice questions here (MCQs) ?
-
-* What it means 'programming'
-* What BBC Micro:bit is
-* In which language we can talk with BBC Micro:bit
-* How to talk with your Micro:Bit (MuEditor)
-
-## That's all
-
-Ready for the next chapter ?
+Wskazówki:
+* Pamiętaj, żeby wywołać radio: `radio.on()`
+* Kiedy otrzymasz wiadomość, wyświetl ją na ekranie diodowym
+* Upraszczając załóżmy, że tylko jeden Micro:bit naraz będzie wysyłał wiadomość
