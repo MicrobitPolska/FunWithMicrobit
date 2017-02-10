@@ -1,28 +1,28 @@
-# Micro:bit czy mnie s³yszysz?
+# Micro:bit czy mnie sÅ‚yszysz?
 
-## Czego nauczysz siê w tym rozdziale?
+## Czego nauczysz siÄ™ w tym rozdziale?
 
-* Jak u¿ywaæ modu³u radio
-* Jak u¿ywaæ 2 lub wiêcej Micro:bitów, ¿eby stworzyæ sieæ radiow¹
+* Jak uÅ¼ywaÄ‡ moduÅ‚u radio
+* Jak uÅ¼ywaÄ‡ 2 lub wiÄ™cej Micro:bitÃ³w, Å¼eby stworzyÄ‡ sieÄ‡ radiowÄ…
 
-## Czym jest modu³ radio?
+## Czym jest moduÅ‚ radio?
 
-Wewn¹trz ka¿dego BBC Micro:bita znajduje siê bardzo interesuj¹ca funkcjonalnoœæ, której mo¿emy u¿yæ, czyli - radio.
+WewnÄ…trz kaÅ¼dego BBC Micro:bita znajduje siÄ™ bardzo interesujÄ…ca funkcjonalnoÅ›Ä‡, ktÃ³rej moÅ¼emy uÅ¼yÄ‡, czyli - radio.
 
-Mo¿emy u¿ywaæ modu³u radio do wysy³ania i otrzymywania wiadomoœci.
+MoÅ¼emy uÅ¼ywaÄ‡ moduÅ‚u radio do wysyÅ‚ania i otrzymywania wiadomoÅ›ci.
 
 Co dalej?
 
-Dobierzcie siê w kilkuosobowe grupy, i wybierzcie jakiœ numer, który bêdzie u¿ywany tylko w waszej grupie.
+Dobierzcie siÄ™ w kilkuosobowe grupy, i wybierzcie jakiÅ› numer, ktÃ³ry bÄ™dzie uÅ¼ywany tylko w waszej grupie.
 
-Jeœli cz³onkowie grupy nie siedz¹ blisko to nic nie szkodzi, poniewa¿ mamy radio!
+JeÅ›li czÅ‚onkowie grupy nie siedzÄ… blisko to nic nie szkodzi, poniewaÅ¼ mamy radio!
 
-U¿ywanie modu³u radio jest bardzo proste. Musimy:
+UÅ¼ywanie moduÅ‚u radio jest bardzo proste. Musimy:
 
-1. Zaimportowaæ modu³ radio
-2. W³¹czyæ radio
-3. Ustawiæ numer grupy
-4. Wysy³aæ albo otrzymywaæ wiadomoœci
+1. ZaimportowaÄ‡ moduÅ‚ radio
+2. WÅ‚Ä…czyÄ‡ radio
+3. UstawiÄ‡ numer grupy
+4. WysyÅ‚aÄ‡ albo otrzymywaÄ‡ wiadomoÅ›ci
 
 ```python
 import radio
