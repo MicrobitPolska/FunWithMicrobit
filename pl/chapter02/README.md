@@ -16,10 +16,10 @@ Ma 2 główne przyciski (A i B), wyświetlacz 5 x 5 składający się z czerwony
 
 Możemy używać przycisków i sensorów jako wejść (wejście oznacza miejsce, przez które dajemy informacje microbitowi) a wyświetlacza po to, by nam coś pokazywał, np. obrazki albo tekst (to jest nasz output, czyli wyjście).
 
-Możesz programować swojego Micro:bita podłączając go do komputera, ma micro-usb port. Jak go podłączysz zobaczysz migającą diodę. Microbit ma również małe złącze, do którego możesz podłączyć baterie, dostarczając mu w ten sposób energię bez użycia komputera. 
+Możesz programować swojego Micro:bita podłączając go do komputera, ma port micro-usb. Jak go podłączysz zobaczysz migającą diodę. Microbit ma również małe złącze, do którego możesz podłączyć baterie, dostarczając mu w ten sposób energię bez użycia komputera. 
 
 ## Rozmawianie z Micro:bitem
-Żeby rozmawiać ze swoim Micro:bitem potrzebujesz mówić w języku, który on rozumie, czyli w: Pythonie.
+Żeby rozmawiać ze swoim Micro:bitem potrzebujesz mówić w języku, który on rozumie, czyli w Pythonie.
 
 Ale gdzie możemy pisać nasz kod? Można do tego użyć edytora tekstowego ,,Mu". Mu jest specjalnym edytorem stworzonym do programowania Micro:bitów.
 

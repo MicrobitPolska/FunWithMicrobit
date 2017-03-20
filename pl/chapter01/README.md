@@ -16,7 +16,7 @@ Tak więc traktuj Micro:bita jako swojego przyjaciela i programuj go tak, jakby�
 
 Ale czemu uważamy, że programowanie to pewien rodzaj sztuki?
 
-* Ponieważ nie chodzi w nim tylko o wiskanie klawiszy
+* Ponieważ nie chodzi w nim tylko o wciskanie klawiszy
 * Trzeba używać do tego mózgu
 * Często tworzy się coś zupełnie od zera
 * Nie istnieje tylko jeden sposób rozwiązywania problemów
@@ -35,17 +35,17 @@ Gdzie używa się sztuki programowania?
 * Można wysyłać coś w kosmos
 
 ## Język programowania
-Komputery rozumieją tylko 0 i 1, ale my ludzie - nie.
+Komputery rozumieją tylko w systemie 0 i 1, ale my ludzie - nie.
 Jak możemy rozmawiać z komputerami w języku, który my też rozumiemy? Na pomoc przychodzą nam tutaj języki programowania.
 
-Języki prgramowania są stosunkowo łatwe do czytania dla nas, i jednocześnie mogą być łatwo przetłumaczone na 0 i 1.
+Języki programowania są stosunkowo łatwe do czytania dla nas, a jednocześnie mogą być łatwo przetłumaczone na 0 i 1.
 
 Przykład?
 
 ```python
 print("Hello ! I am Python")
 ```
-Ta linijka kodu wy�wietli nam na ekranie: Hello !, I am Python
+Ta linijka kodu wyświetli nam na ekranie: Hello ! I am Python  
 Nic skomplikowanego.
 
 ## Co to jest Python?
@@ -56,7 +56,7 @@ Czemu Python jest taki specjalny i czemu będziemy się go uczyć?
 
 Python jest łatwy w użyciu, łatwy w czytaniu i jednocześnie bardzo przydatny.
 
-Można użyć Pythona do stworzenia strony, takiej jak [Django](https://www.djangoproject.com/ "Django Web Framework"), do stworzenia samoprowadzącego się samochodu albo prowadzeniu badań.
+Pythona można użyć do stworzenia strony, opartej dla przykładu na [Django](https://www.djangoproject.com/ "Django Web Framework"), do stworzenia samoprowadzącego się samochodu albo prowadzeniu badań.
 
 
 # Czas na pytania!
