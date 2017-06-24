@@ -53,7 +53,7 @@ The 4 buttons are:
 
 
 There is an important note about the files that you save and load, they are just text.
-But how do we recognize that is _python_ file ? 
+But how do we recognize that is _python_ file ?
 By the name.
 
 Let's save our first file on your computer.
@@ -73,6 +73,9 @@ But with Mu we don't have to worry about adding __.py__ because is doing this fo
 ## Our very first first program
 
 So Mu is still open, now you can connect the Micro:bit to your computer and press __flash__.
+
+If you see this box don't worry, just press `OK`
+![Mu error](images/error.png)
 
 You should see the yellow led light blinking....is working!
 
